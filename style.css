@@ -53,11 +53,25 @@ button {
 
 #related-words li {
     margin: 5px 0;
+    width: 80%;
+    background-color: #b2dfdb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#timer {
-    font-size: 30px;
-    margin-bottom: 20px;
+#timer-display, #questions-remaining {
+    font-size: 24px;
+    margin: 10px;
+}
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #80cbc4;
+    position: relative;
 }
 
 #clue-words-used, #guessing-team-buttons {
@@ -123,4 +137,12 @@ button {
     background-color: #b2dfdb;
     padding: 10px;
     border-radius: 5px;
+}
+
+.top-right-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #ffffff;
 }
