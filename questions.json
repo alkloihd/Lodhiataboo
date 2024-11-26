@@ -1,0 +1,905 @@
+{
+    "cards": [
+      {
+        "word": "Ariana Grande",
+        "related_words": ["singer", "pop", "high ponytail", "victorious", "7 rings"]
+      },
+      {
+        "word": "Frozen",
+        "related_words": ["Elsa", "snow", "Anna", "Disney", "Let it Go"]
+      },
+      {
+        "word": "Mickey Mouse",
+        "related_words": ["Disney", "cartoon", "ears", "Donald", "Walt Disney"]
+      },
+      {
+        "word": "Spider-Man",
+        "related_words": ["Marvel", "superhero", "web", "Peter Parker", "city"]
+      },
+      {
+        "word": "Pizza",
+        "related_words": ["cheese", "pepperoni", "Italy", "crust", "tomato"]
+      },
+      {
+        "word": "Superman",
+        "related_words": ["Man of Steel", "Clark Kent", "cape", "Kryptonite", "DC"]
+      },
+      {
+        "word": "Harry Potter",
+        "related_words": ["wizard", "Hogwarts", "magic", "Hermione", "Ron"]
+      },
+      {
+        "word": "Shrek",
+        "related_words": ["ogre", "Donkey", "Princess Fiona", "green", "Fairy Tale"]
+      },
+      {
+        "word": "iPhone",
+        "related_words": ["Apple", "smartphone", "screen", "touch", "iOS"]
+      },
+      {
+        "word": "Katy Perry",
+        "related_words": ["singer", "pop", "California Gurls", "Roar", "fireworks"]
+      },
+      {
+        "word": "Minecraft",
+        "related_words": ["video game", "block", "build", "creeper", "pixel"]
+      },
+      {
+        "word": "Avengers",
+        "related_words": ["team", "superheroes", "Iron Man", "Thor", "Infinity War"]
+      },
+      {
+        "word": "Cinderella",
+        "related_words": ["Disney", "glass slipper", "fairy godmother", "prince", "pumpkin"]
+      },
+      {
+        "word": "Jungle Book",
+        "related_words": ["Mowgli", "Baloo", "Disney", "jungle", "Shere Khan"]
+      },
+      {
+        "word": "Pikachu",
+        "related_words": ["Pokemon", "electric", "yellow", "Poke Ball", "Ash"]
+      },
+      {
+        "word": "SpongeBob SquarePants",
+        "related_words": ["cartoon", "sea", "Krabby Patty", "Patrick", "pineapple"]
+      },
+      {
+        "word": "Buzz Lightyear",
+        "related_words": ["Toy Story", "space", "laser", "Woody", "Infinity and beyond"]
+      },
+      {
+        "word": "Walt Disney",
+        "related_words": ["animation", "theme park", "Mickey", "movies", "visionary"]
+      },
+      {
+        "word": "Lego",
+        "related_words": ["blocks", "build", "toy", "construction", "bricks"]
+      },
+      {
+        "word": "Eiffel Tower",
+        "related_words": ["Paris", "France", "landmark", "tower", "romance"]
+      },
+      {
+        "word": "Lion King",
+        "related_words": ["Disney", "Simba", "Hakuna Matata", "Pumbaa", "Scar"]
+      },
+      {
+        "word": "Taylor Swift",
+        "related_words": ["singer", "country", "pop", "Love Story", "Blank Space"]
+      },
+      {
+        "word": "Naruto",
+        "related_words": ["anime", "ninja", "Hokage", "village", "Ramen"]
+      },
+      {
+        "word": "Scooby-Doo",
+        "related_words": ["mystery", "dog", "Shaggy", "ghost", "friends"]
+      },
+      {
+        "word": "Minions",
+        "related_words": ["yellow", "Despicable Me", "Gru", "movies", "funny"]
+      },
+      {
+        "word": "The Simpsons",
+        "related_words": ["cartoon", "Homer", "Maggie", "Bart", "Springfield"]
+      },
+      {
+        "word": "Lady Gaga",
+        "related_words": ["pop", "singer", "Poker Face", "Born This Way", "fashion"]
+      },
+      {
+        "word": "Coca-Cola",
+        "related_words": ["soda", "drink", "bottle", "refreshing", "red"]
+      },
+      {
+        "word": "The Flash",
+        "related_words": ["speed", "DC", "superhero", "lightning", "Barry Allen"]
+      },
+      {
+        "word": "Wonder Woman",
+        "related_words": ["superhero", "DC", "Amazon", "Lasso of Truth", "Wonder"]
+      },
+      {
+        "word": "Beyoncé",
+        "related_words": ["singer", "pop", "Queen B", "Formation", "Lemonade"]
+      },
+      {
+        "word": "Black Panther",
+        "related_words": ["Marvel", "Wakanda", "T'Challa", "hero", "King"]
+      },
+      {
+        "word": "Fast and Furious",
+        "related_words": ["cars", "racing", "Vin Diesel", "action", "family"]
+      },
+      {
+        "word": "Minecraft Creeper",
+        "related_words": ["explosion", "green", "dangerous", "block", "game"]
+      },
+      {
+        "word": "Fortnite",
+        "related_words": ["battle royale", "video game", "dance", "skin", "Victory Royale"]
+      },
+      {
+        "word": "Star Wars",
+        "related_words": ["sci-fi", "Jedi", "lightsaber", "Darth Vader", "force"]
+      },
+      {
+        "word": "Pokémon",
+        "related_words": ["Pikachu", "Ash", "Kanto", "Bulbasaur", "Gotta catch 'em all"]
+      },
+      {
+        "word": "Jaws",
+        "related_words": ["shark", "ocean", "scary", "movie", "beach"]
+      },
+      {
+        "word": "Pizza Hut",
+        "related_words": ["restaurant", "pizza", "delivery", "cheese", "fast food"]
+      },
+      {
+        "word": "Chocolate",
+        "related_words": ["sweet", "candy", "brown", "dessert", "cocoa"]
+      },
+      {
+        "word": "Avatar",
+        "related_words": ["blue", "James Cameron", "movie", "Pandora", "alien"]
+      },
+      {
+        "word": "Harry Styles",
+        "related_words": ["singer", "One Direction", "Watermelon Sugar", "pop", "album"]
+      },
+      {
+        "word": "Shark",
+        "related_words": ["teeth", "ocean", "Jaws", "dangerous", "fish"]
+      },
+      {
+        "word": "Frozen Yogurt",
+        "related_words": ["dessert", "ice cream", "frozen", "toppings", "sweet"]
+      },
+      {
+        "word": "Back to the Future",
+        "related_words": ["movie", "time travel", "DeLorean", "Marty McFly", "Doc Brown"]
+      },
+      {
+        "word": "Dora the Explorer",
+        "related_words": ["TV show", "boots", "map", "backpack", "Spanish"]
+      },
+      {
+        "word": "Minecraft Steve",
+        "related_words": ["character", "block", "game", "player", "pickaxe"]
+      },
+      {
+        "word": "Spider-Man: No Way Home",
+        "related_words": ["movie", "Marvel", "Tom Holland", "superhero", "multiverse"]
+      },
+      {
+        "word": "T-Rex",
+        "related_words": ["dinosaur", "Jurassic", "big", "carnivore", "extinct"]
+      },
+      {
+        "word": "Astronaut",
+        "related_words": ["space", "NASA", "rocket", "moon", "exploration"]
+      },
+      {
+        "word": "Baker",
+        "related_words": ["bread", "oven", "flour", "cookies", "pastry"]
+      },
+      {
+        "word": "Lighthouse",
+        "related_words": ["ocean", "light", "seaside", "beacon", "ship"]
+      },
+      {
+        "word": "Detective",
+        "related_words": ["mystery", "clues", "investigation", "Sherlock", "magnifying glass"]
+      },
+      {
+        "word": "Pirate",
+        "related_words": ["treasure", "ship", "map", "sea", "Captain"]
+      },
+      {
+        "word": "Volcano",
+        "related_words": ["lava", "eruption", "mountain", "fire", "hot"]
+      },
+      {
+        "word": "Firefighter",
+        "related_words": ["fire", "rescue", "truck", "hose", "rescue"]
+      },
+      {
+        "word": "Scientist",
+        "related_words": ["lab", "experiment", "beaker", "research", "chemicals"]
+      },
+      {
+        "word": "Giraffe",
+        "related_words": ["animal", "tall", "neck", "spots", "zoo"]
+      },
+      {
+        "word": "Photographer",
+        "related_words": ["camera", "picture", "photoshoot", "lens", "portrait"]
+      },
+      {
+        "word": "Shovel",
+        "related_words": ["digging", "dirt", "garden", "tool", "spade"]
+      },
+      {
+        "word": "Helicopter",
+        "related_words": ["air", "pilot", "rotor", "flying", "aircraft"]
+      },
+      {
+        "word": "Telescope",
+        "related_words": ["stars", "space", "observatory", "view", "planets"]
+      },
+      {
+        "word": "Accordion",
+        "related_words": ["music", "instrument", "buttons", "squeeze", "melody"]
+      },
+      {
+        "word": "Cactus",
+        "related_words": ["plant", "desert", "spines", "green", "succulent"]
+      },
+      {
+        "word": "Dinosaur",
+        "related_words": ["extinct", "prehistoric", "fossils", "Jurassic", "bones"]
+      },
+      {
+        "word": "Chef",
+        "related_words": ["cooking", "restaurant", "food", "kitchen", "recipe"]
+      },
+      {
+        "word": "Gumball",
+        "related_words": ["candy", "machine", "chewy", "sweet", "ball"]
+      },
+      {
+        "word": "Raccoon",
+        "related_words": ["animal", "mask", "trash", "nocturnal", "scavenger"]
+      },
+      {
+        "word": "Sloth",
+        "related_words": ["animal", "slow", "tree", "lazy", "sleep"]
+      },
+      {
+        "word": "Penguin",
+        "related_words": ["bird", "ice", "Antarctica", "black and white", "waddle"]
+      },
+      {
+        "word": "Kangaroo",
+        "related_words": ["Australia", "hop", "pouch", "animal", "marsupial"]
+      },
+      {
+        "word": "Bridge",
+        "related_words": ["river", "crossing", "structure", "wood", "road"]
+      },
+      {
+        "word": "Submarine",
+        "related_words": ["underwater", "ship", "ocean", "diving", "navy"]
+      },
+      {
+        "word": "Skyscraper",
+        "related_words": ["building", "tall", "city", "windows", "construction"]
+      },
+      {
+        "word": "Hockey",
+        "related_words": ["ice", "puck", "stick", "goal", "sports"]
+      },
+      {
+        "word": "Shark",
+        "related_words": ["teeth", "ocean", "dangerous", "fish", "predator"]
+      },
+      {
+        "word": "Piano",
+        "related_words": ["music", "keys", "instrument", "classical", "melody"]
+      },
+      {
+        "word": "Robot",
+        "related_words": ["machine", "metal", "artificial", "technology", "future"]
+      },
+      {
+        "word": "Bicycle",
+        "related_words": ["wheels", "pedal", "bike", "ride", "handlebars"]
+      },
+      {
+        "word": "Hot Air Balloon",
+        "related_words": ["air", "balloon", "sky", "flight", "basket"]
+      },
+      {
+        "word": "Eclipse",
+        "related_words": ["moon", "sun", "shadow", "space", "dark"]
+      },
+      {
+        "word": "Bubble",
+        "related_words": ["soap", "pop", "air", "light", "round"]
+      },
+      {
+        "word": "Whale",
+        "related_words": ["ocean", "big", "mammal", "blue", "sea"]
+      },
+      {
+        "word": "Astronomy",
+        "related_words": ["stars", "planets", "space", "telescope", "universe"]
+      },
+      {
+        "word": "Parrot",
+        "related_words": ["bird", "colorful", "talk", "tropical", "feathers"]
+      },
+      {
+        "word": "Jellyfish",
+        "related_words": ["sea", "sting", "transparent", "tentacles", "ocean"]
+      },
+      {
+        "word": "Trampoline",
+        "related_words": ["jump", "spring", "fun", "bouncy", "yard"]
+      },
+      {
+        "word": "Dragonfly",
+        "related_words": ["insect", "wings", "pond", "fly", "green"]
+      },
+      {
+        "word": "Bumblebee",
+        "related_words": ["insect", "honey", "yellow", "fly", "buzz"]
+      },
+      {
+        "word": "Octopus",
+        "related_words": ["sea", "tentacles", "fish", "eight", "ocean"]
+      },
+      {
+        "word": "Mountain",
+        "related_words": ["rock", "tall", "climb", "peak", "snow"]
+      },
+      {
+        "word": "Desert",
+        "related_words": ["sand", "hot", "dry", "cactus", "land"]
+      },
+      {
+        "word": "Waterfall",
+        "related_words": ["water", "fall", "stream", "river", "nature"]
+      },
+      {
+        "word": "Lemonade",
+        "related_words": ["drink", "lemon", "sweet", "summer", "juice"]
+      },
+      {
+        "word": "Camping",
+        "related_words": ["tent", "fire", "outdoors", "nature", "sleeping bag"]
+      },
+      {
+        "word": "Hula Hoop",
+        "related_words": ["circle", "spin", "toy", "exercise", "fun"]
+      },
+      {
+        "word": "Treasure Chest",
+        "related_words": ["gold", "pirate", "treasure", "wood", "lock"]
+      },
+      {
+        "word": "Giraffe",
+        "related_words": ["zoo", "tall", "neck", "spotted", "Africa"]
+      },
+      {
+        "word": "Canoe",
+        "related_words": ["paddle", "water", "canoeing", "boat", "river"]
+      },
+      {
+        "word": "Sushi",
+        "related_words": ["Japan", "fish", "rice", "seaweed", "roll"]
+      },
+      {
+        "word": "Zookeeper",
+        "related_words": ["animals", "zoo", "keeper", "wildlife", "care"]
+      },
+      {
+        "word": "Ice Cream",
+        "related_words": ["dessert", "cold", "cone", "flavor", "sweet"]
+      },
+      {
+        "word": "Caterpillar",
+        "related_words": ["insect", "green", "cocoon", "butterfly", "larvae"]
+      },
+      {
+        "word": "Librarian",
+        "related_words": ["books", "library", "reading", "quiet", "catalog"]
+      },
+      {
+        "word": "Skateboard",
+        "related_words": ["ride", "wheels", "trick", "board", "skate"]
+      },
+      {
+        "word": "Guitar",
+        "related_words": ["music", "strings", "instrument", "rock", "play"]
+      },
+      {
+        "word": "Fireworks",
+        "related_words": ["celebration", "sky", "explosion", "spark", "colorful"]
+      },
+      {
+        "word": "Submarine",
+        "related_words": ["water", "ocean", "dive", "ship", "underwater"]
+      },
+      {
+        "word": "Eagle",
+        "related_words": ["bird", "fly", "wings", "america", "majestic"]
+      },
+      {
+        "word": "Hurricane",
+        "related_words": ["wind", "storm", "rain", "disaster", "dangerous"]
+      },
+      {
+        "word": "Chameleon",
+        "related_words": ["lizard", "color", "camouflage", "animal", "change"]
+      },
+      {
+        "word": "Mummy",
+        "related_words": ["Egypt", "wrapping", "ancient", "dead", "pyramid"]
+      },
+      {
+        "word": "Robot",
+        "related_words": ["machine", "metal", "technology", "AI", "future"]
+      },
+      {
+        "word": "Lemon",
+        "related_words": ["yellow", "sour", "fruit", "citrus", "juice"]
+      },
+      {
+        "word": "Laser",
+        "related_words": ["light", "beam", "science", "technology", "red"]
+      },
+      {
+        "word": "Tornado",
+        "related_words": ["storm", "wind", "destruction", "twister", "dangerous"]
+      },
+      {
+        "word": "T-Rex",
+        "related_words": ["dinosaur", "fossil", "extinct", "prehistoric", "huge"]
+      },
+      {
+        "word": "Butterfly",
+        "related_words": ["insect", "wings", "colorful", "garden", "metamorphosis"]
+      },
+      {
+        "word": "Lion",
+        "related_words": ["king", "animal", "jungle", "roar", "Africa"]
+      },
+      {
+        "word": "Bumblebee",
+        "related_words": ["yellow", "buzz", "insect", "flower", "honey"]
+      },
+      {
+        "word": "Scarecrow",
+        "related_words": ["farm", "corn", "field", "hay", "Halloween"]
+      },
+      {
+        "word": "Canoe",
+        "related_words": ["water", "paddle", "boat", "river", "outdoor"]
+      },
+      {
+        "word": "Campfire",
+        "related_words": ["fire", "camping", "outdoor", "s'mores", "night"]
+      },
+      {
+        "word": "Ninja",
+        "related_words": ["martial arts", "stealth", "black", "fighting", "shuriken"]
+      },
+      {
+        "word": "Dolphin",
+        "related_words": ["ocean", "animal", "swim", "smart", "mammal"]
+      },
+      {
+        "word": "Monarch Butterfly",
+        "related_words": ["insect", "orange", "migration", "wings", "garden"]
+      },
+      {
+        "word": "Alpaca",
+        "related_words": ["animal", "South America", "wool", "llama", "cute"]
+      },
+      {
+        "word": "Balloon",
+        "related_words": ["air", "float", "party", "helium", "colorful"]
+      },
+      {
+        "word": "Chocolate",
+        "related_words": ["sweet", "candy", "brown", "dessert", "milk"]
+      },
+      {
+        "word": "Pinata",
+        "related_words": ["party", "candy", "bat", "colorful", "break"]
+      },
+      {
+        "word": "Jellyfish",
+        "related_words": ["sea", "tentacles", "sting", "water", "ocean"]
+      },
+      {
+        "word": "Meteor",
+        "related_words": ["space", "rock", "sky", "fall", "shooting star"]
+      },
+      {
+        "word": "Scuba Diving",
+        "related_words": ["water", "ocean", "diving", "fish", "underwater"]
+      },
+      {
+        "word": "Giraffe",
+        "related_words": ["animal", "neck", "zoo", "Africa", "tall"]
+      },
+      {
+        "word": "Turtle",
+        "related_words": ["slow", "shell", "sea", "animal", "beach"]
+      },
+      {
+        "word": "Iceberg",
+        "related_words": ["cold", "water", "ocean", "ice", "Titanic"]
+      },
+      {
+        "word": "Lighthouse",
+        "related_words": ["ocean", "light", "beacon", "seaside", "coast"]
+      },
+      {
+        "word": "Beach",
+        "related_words": ["sand", "water", "sun", "sea", "vacation"]
+      },
+      {
+        "word": "Sandcastle",
+        "related_words": ["sand", "beach", "bucket", "shovel", "castle"]
+      },
+      {
+        "word": "Zebra",
+        "related_words": ["stripes", "animal", "black", "white", "Africa"]
+      },
+      {
+        "word": "Penguin",
+        "related_words": ["bird", "Antarctica", "ice", "waddle", "black and white"]
+      },
+      {
+        "word": "Carousel",
+        "related_words": ["ride", "fair", "horses", "amusement", "carnival"]
+      },
+      {
+        "word": "Fountain",
+        "related_words": ["water", "park", "flow", "statue", "outdoor"]
+      },
+      {
+        "word": "Library",
+        "related_words": ["books", "reading", "quiet", "study", "shelves"]
+      },
+      {
+        "word": "Doctor",
+        "related_words": ["medicine", "hospital", "care", "healing", "nurse"]
+      },
+      {
+        "word": "Ballerina",
+        "related_words": ["dance", "tutu", "ballet", "stage", "performance"]
+      },
+      {
+        "word": "Gondola",
+        "related_words": ["boat", "water", "Venice", "ride", "tour"]
+      },
+      {
+        "word": "Vampire",
+        "related_words": ["blood", "night", "bat", "count", "fangs"]
+      },
+      {
+        "word": "Clown",
+        "related_words": ["circus", "funny", "makeup", "balloons", "jokes"]
+      },
+      {
+        "word": "Shovel",
+        "related_words": ["dig", "dirt", "garden", "spade", "tool"]
+      },
+      {
+        "word": "Dinosaur",
+        "related_words": ["extinct", "fossil", "prehistoric", "museum", "bones"]
+      },
+      {
+        "word": "Zookeeper",
+        "related_words": ["animals", "wildlife", "care", "zoo", "keeper"]
+      },
+      {
+        "word": "Cupcake",
+        "related_words": ["dessert", "sweet", "frosting", "bake", "cake"]
+      },
+      {
+        "word": "Plumber",
+        "related_words": ["pipe", "water", "leak", "wrench", "repair"]
+      },
+      {
+        "word": "Magician",
+        "related_words": ["trick", "illusion", "rabbit", "hat", "performer"]
+      },
+      {
+        "word": "Cabbage",
+        "related_words": ["vegetable", "green", "leafy", "food", "cooking"]
+      },
+      {
+        "word": "Bicycle",
+        "related_words": ["wheels", "pedal", "ride", "handlebars", "bike"]
+      },
+      {
+        "word": "Hockey",
+        "related_words": ["stick", "puck", "ice", "goal", "sports"]
+      },
+      {
+        "word": "Barn",
+        "related_words": ["farm", "animals", "hay", "silo", "wood"]
+      },
+      {
+        "word": "Spider",
+        "related_words": ["web", "eight", "legs", "creepy", "insect"]
+      },
+      {
+        "word": "Trampoline",
+        "related_words": ["jump", "spring", "bouncy", "yard", "fun"]
+      },
+      {
+        "word": "Hot Air Balloon",
+        "related_words": ["air", "helium", "sky", "flight", "basket"]
+      },
+      {
+        "word": "Squid",
+        "related_words": ["ocean", "tentacles", "sea", "deep", "creature"]
+      },
+      {
+        "word": "Wizard",
+        "related_words": ["magic", "wand", "spell", "hat", "fantasy"]
+      },
+      {
+        "word": "Mummy",
+        "related_words": ["Egypt", "wrapped", "pyramid", "ancient", "dead"]
+      },
+      {
+        "word": "Ferris Wheel",
+        "related_words": ["ride", "amusement", "carnival", "big", "wheel"]
+      },
+      {
+        "word": "Cloud",
+        "related_words": ["sky", "fluffy", "white", "weather", "rain"]
+      },
+      {
+        "word": "Penguin",
+        "related_words": ["cold", "Antarctica", "bird", "waddle", "black and white"]
+      },
+      {
+        "word": "Giraffe",
+        "related_words": ["animal", "neck", "spots", "tall", "Africa"]
+      },
+      {
+        "word": "Treasure",
+        "related_words": ["gold", "pirate", "chest", "map", "hunt"]
+      },
+      {
+        "word": "Cactus",
+        "related_words": ["plant", "desert", "spines", "succulent", "dry"]
+      },
+      {
+        "word": "Cyborg",
+        "related_words": ["robot", "technology", "metal", "human", "future"]
+      },
+      {
+        "word": "Volcano",
+        "related_words": ["lava", "eruption", "mountain", "hot", "fire"]
+      },
+      {
+        "word": "Dragon",
+        "related_words": ["fire", "wings", "fantasy", "myth", "fly"]
+      },
+      {
+        "word": "Pirate Ship",
+        "related_words": ["ocean", "sail", "treasure", "captain", "crew"]
+      },
+      {
+        "word": "Ninja",
+        "related_words": ["stealth", "martial arts", "fight", "black", "shuriken"]
+      },
+      {
+        "word": "Unicorn",
+        "related_words": ["horse", "magic", "horn", "rainbow", "fantasy"]
+      },
+      {
+        "word": "Rainforest",
+        "related_words": ["jungle", "trees", "tropical", "animals", "green"]
+      },
+      {
+        "word": "Bubble",
+        "related_words": ["soap", "pop", "air", "round", "colorful"]
+      },
+      {
+        "word": "Whale",
+        "related_words": ["ocean", "big", "mammal", "blue", "water"]
+      },
+      {
+        "word": "Lighthouse",
+        "related_words": ["ocean", "light", "coast", "sea", "beacon"]
+      },
+      {
+        "word": "Dragonfly",
+        "related_words": ["insect", "wings", "fly", "pond", "green"]
+      },
+      {
+        "word": "Trampoline",
+        "related_words": ["jump", "bouncy", "fun", "spring", "yard"]
+      },
+      {
+        "word": "Tornado",
+        "related_words": ["storm", "wind", "destruction", "twister", "dangerous"]
+      },
+      {
+        "word": "Skyscraper",
+        "related_words": ["building", "tall", "city", "windows", "office"]
+      },
+      {
+        "word": "Astronaut",
+        "related_words": ["space", "NASA", "rocket", "moon", "suit"]
+      },
+      {
+        "word": "Balloon",
+        "related_words": ["air", "helium", "colorful", "float", "party"]
+      },
+      {
+        "word": "Raccoon",
+        "related_words": ["animal", "mask", "trash", "night", "scavenger"]
+      },
+      {
+        "word": "Eagle",
+        "related_words": ["bird", "fly", "wings", "majestic", "America"]
+      },
+      {
+        "word": "Canoe",
+        "related_words": ["paddle", "water", "boat", "river", "outdoor"]
+      },
+      {
+        "word": "Gumball",
+        "related_words": ["candy", "sweet", "round", "machine", "chewy"]
+      },
+      {
+        "word": "Scarecrow",
+        "related_words": ["farm", "field", "corn", "hay", "Halloween"]
+      },
+      {
+        "word": "Astronomy",
+        "related_words": ["stars", "planets", "universe", "space", "telescopes"]
+      },
+      {
+        "word": "Bicycle",
+        "related_words": ["ride", "wheels", "pedal", "bike", "handlebars"]
+      },
+      {
+        "word": "Zebra",
+        "related_words": ["stripes", "black", "white", "Africa", "horse"]
+      },
+      {
+        "word": "Robot",
+        "related_words": ["machine", "metal", "program", "artificial", "intelligence"]
+      },
+      {
+        "word": "Owl",
+        "related_words": ["bird", "night", "wise", "hoot", "feathers"]
+      },
+      {
+        "word": "Chef",
+        "related_words": ["cooking", "kitchen", "food", "restaurant", "cookbook"]
+      },
+      {
+        "word": "Guitar",
+        "related_words": ["music", "strings", "instrument", "rock", "band"]
+      },
+      {
+        "word": "T-Rex",
+        "related_words": ["dinosaur", "extinct", "huge", "prehistoric", "teeth"]
+      },
+      {
+        "word": "Penguin",
+        "related_words": ["cold", "ice", "Antarctica", "bird", "waddle"]
+      },
+      {
+        "word": "Laser",
+        "related_words": ["light", "beam", "red", "science", "energy"]
+      },
+      {
+        "word": "Hula Hoop",
+        "related_words": ["circle", "spin", "toy", "fun", "exercise"]
+      },
+      {
+        "word": "Piano",
+        "related_words": ["music", "keys", "instrument", "notes", "play"]
+      },
+      {
+        "word": "Sushi",
+        "related_words": ["Japan", "rice", "fish", "roll", "seaweed"]
+      },
+      {
+        "word": "Clown",
+        "related_words": ["circus", "funny", "makeup", "joke", "balloon"]
+      },
+      {
+        "word": "Wizard",
+        "related_words": ["magic", "wand", "spell", "fantasy", "hat"]
+      },
+      {
+        "word": "Lemonade",
+        "related_words": ["summer", "drink", "lemon", "sweet", "cold"]
+      },
+      {
+        "word": "Eclipse",
+        "related_words": ["moon", "sun", "shadow", "sky", "space"]
+      },
+      {
+        "word": "Campfire",
+        "related_words": ["fire", "outdoor", "s'mores", "camping", "night"]
+      },
+      {
+        "word": "Superhero",
+        "related_words": ["hero", "cape", "power", "villain", "fly"]
+      },
+      {
+        "word": "Bumblebee",
+        "related_words": ["yellow", "buzz", "insect", "flower", "honey"]
+      },
+      {
+        "word": "Iceberg",
+        "related_words": ["cold", "water", "ocean", "Titanic", "float"]
+      },
+      {
+        "word": "Turtle",
+        "related_words": ["slow", "shell", "beach", "ocean", "animal"]
+      },
+      {
+        "word": "Fairy",
+        "related_words": ["magic", "wings", "fantasy", "sparkle", "myth"]
+      },
+      {
+        "word": "Shovel",
+        "related_words": ["dig", "garden", "dirt", "tool", "spade"]
+      },
+      {
+        "word": "Rocket",
+        "related_words": ["space", "NASA", "launch", "moon", "fire"]
+      },
+      {
+        "word": "Volcano",
+        "related_words": ["eruption", "lava", "mountain", "hot", "fire"]
+      },
+      {
+        "word": "Skateboard",
+        "related_words": ["wheels", "skate", "ride", "trick", "board"]
+      },
+      {
+        "word": "Tractor",
+        "related_words": ["farm", "machine", "plow", "field", "wheel"]
+      },
+      {
+        "word": "Submarine",
+        "related_words": ["water", "ship", "underwater", "ocean", "diving"]
+      },
+      {
+        "word": "Ballerina",
+        "related_words": ["dance", "ballet", "tutu", "performance", "stage"]
+      },
+      {
+        "word": "Shark",
+        "related_words": ["teeth", "dangerous", "ocean", "fish", "predator"]
+      },
+      {
+        "word": "Tornado",
+        "related_words": ["wind", "storm", "twister", "destruction", "danger"]
+      },
+      {
+        "word": "Jellyfish",
+        "related_words": ["ocean", "tentacles", "sting", "water", "sea"]
+      }
+    ]
+  }
+  
