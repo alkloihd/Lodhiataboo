@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #00796b;
+    margin: 20px 0;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.option {
+    margin: 20px;
+    font-size: 24px;
+}
+
+label {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#start-button, #continue-button, #skip-button, #restart-button {
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#word-to-guess {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#related-words {
+    font-size: 36px;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#related-words li {
+    margin: 5px 0;
+}
+
+#timer {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#clue-words-used, #guessing-team-buttons {
+    margin: 20px 0;
+}
+
+#clue-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#clue-buttons button.selected {
+    background-color: #ffcccb;
+}
+
+#team-buttons button, .guessing-team-btn {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#guessing-team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#time-up-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: flash 1s infinite;
+    z-index: 1000;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#scores p {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+/* Additional Styling for Enhanced Layout */
+#related-words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#related-words li {
+    width: 80%;
+    background-color: #b2dfdb;
+    padding: 10px;
+    border-radius: 5px;
+}
