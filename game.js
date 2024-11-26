@@ -12,6 +12,7 @@ let timer;
 let timeLeft;
 let scores = {};
 let clueWordsUsed = 0;
+let remainingQuestions = 0;
 
 // Load cards from questions.json
 fetch('questions.json')
@@ -73,6 +74,7 @@ function startGame() {
     // Shuffle the cards and reset used indices
     shuffle(cards);
     usedCardIndices.clear();
+    remainingQuestions = numQuestions;
     // Prepare team selection buttons
     let teamButtonsDiv = document.getElementById('team-buttons');
     teamButtonsDiv.innerHTML = '';
@@ -85,6 +87,8 @@ function startGame() {
         });
         teamButtonsDiv.appendChild(btn);
     });
+    // Initialize questions remaining display
+    document.getElementById('remaining-count').innerText = remainingQuestions;
     document.getElementById('home-screen').style.display = 'none';
     document.getElementById('game-screen').style.display = 'block';
 }
@@ -99,7 +103,7 @@ function selectTeam(team) {
     startTimer();
 }
 
-// Start Timer
+// Start Timer (Unified for the entire team turn)
 function startTimer() {
     timeLeft = timerDuration;
     document.getElementById('time-left').innerText = timeLeft;
@@ -125,7 +129,7 @@ function showTimeUpPopup() {
 
 // Show Card
 function showCard() {
-    if (usedCardIndices.size >= numQuestions || usedCardIndices.size >= totalCards) {
+    if (remainingQuestions <= 0 || usedCardIndices.size >= totalCards) {
         endGame();
         return;
     }
@@ -149,6 +153,9 @@ function showCard() {
     document.querySelectorAll('#clue-buttons button').forEach(btn => {
         btn.classList.remove('selected');
     });
+    // Update questions remaining
+    remainingQuestions -= 1;
+    document.getElementById('remaining-count').innerText = remainingQuestions;
 }
 
 // Generate Guessing Team Buttons
@@ -176,11 +183,9 @@ function handleCorrectGuess(team) {
     if (team) {
         scores[team] += 2;
     }
-    // Advance to next card if time permits
-    if (timeLeft > 0) {
-        clearInterval(timer);
+    // Move to next card if time permits
+    if (timeLeft > 0 && remainingQuestions > 0) {
         showCard();
-        startTimer();
     }
 }
 
@@ -198,11 +203,10 @@ document.getElementById('continue-button').addEventListener('click', () => {
     // Assign points based on clue words used
     let points = [5, 4, 3, 2, 0][clueWordsUsed] || 0;
     scores[teams[currentTeamIndex]] += points;
-    // Check if a guessing team was selected via button
-    // If not, no additional points
-    clearInterval(timer);
-    showCard();
-    startTimer();
+    // Continue to next card if time permits
+    if (timeLeft > 0 && remainingQuestions > 0) {
+        showCard();
+    }
 });
 
 // Skip Button
@@ -222,7 +226,7 @@ function endTurn() {
     document.getElementById('card').style.display = 'none';
     document.getElementById('team-selection').style.display = 'block';
     // Check if all questions are used
-    if (usedCardIndices.size >= numQuestions || usedCardIndices.size >= totalCards) {
+    if (remainingQuestions <= 0 || usedCardIndices.size >= totalCards) {
         endGame();
     }
 }
