@@ -35,6 +35,11 @@
 
     <!-- Game Screen -->
     <div id="game-screen" style="display: none;">
+        <!-- Top Bar with Questions Remaining -->
+        <div id="top-bar">
+            <div id="questions-remaining">Questions Remaining: <span id="remaining-count"></span></div>
+            <div id="timer-display">Time Left: <span id="time-left"></span> seconds</div>
+        </div>
         <!-- Team Selection -->
         <div id="team-selection">
             <h2>Select Your Team</h2>
@@ -42,7 +47,6 @@
         </div>
         <!-- Card Display -->
         <div id="card" style="display: none;">
-            <div id="timer">Time Left: <span id="time-left"></span> seconds</div>
             <div id="word-to-guess" class="underlined"></div>
             <ul id="related-words"></ul>
             <!-- Clue Words Used -->
