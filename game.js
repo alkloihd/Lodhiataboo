@@ -1,4 +1,4 @@
-let numQuestions = 10;
+let numQuestions = 16; // Default value
 let timerDuration = 30;
 let numTeams = 2;
 let teams = [];
@@ -13,6 +13,7 @@ let timeLeft;
 let scores = {};
 let clueWordsUsed = 0;
 let remainingQuestions = 0;
+let isUnlimited = false;
 
 // Load cards from questions.json
 fetch('questions.json')
@@ -26,17 +27,13 @@ fetch('questions.json')
     });
 
 // Home Screen Event Listeners
-document.getElementById('increase-questions').addEventListener('click', () => {
-    if (numQuestions < 50) {
-        numQuestions += 1;
-        document.getElementById('num-questions').innerText = numQuestions;
-    }
-});
-
-document.getElementById('decrease-questions').addEventListener('click', () => {
-    if (numQuestions > 10) {
-        numQuestions -= 1;
-        document.getElementById('num-questions').innerText = numQuestions;
+document.getElementById('num-questions-dropdown').addEventListener('change', (e) => {
+    if (e.target.value === 'unlimited') {
+        isUnlimited = true;
+        numQuestions = Infinity;
+    } else {
+        isUnlimited = false;
+        numQuestions = parseInt(e.target.value);
     }
 });
 
@@ -59,6 +56,15 @@ document.getElementById('num-teams').addEventListener('change', (e) => {
 });
 
 document.getElementById('start-button').addEventListener('click', () => {
+    // Get selected number of questions
+    const selectedValue = document.getElementById('num-questions-dropdown').value;
+    if (selectedValue === 'unlimited') {
+        isUnlimited = true;
+        numQuestions = Infinity;
+    } else {
+        isUnlimited = false;
+        numQuestions = parseInt(selectedValue);
+    }
     startGame();
 });
 
@@ -74,7 +80,7 @@ function startGame() {
     // Shuffle the cards and reset used indices
     shuffle(cards);
     usedCardIndices.clear();
-    remainingQuestions = numQuestions;
+    remainingQuestions = isUnlimited ? Infinity : numQuestions;
     // Prepare team selection buttons
     let teamButtonsDiv = document.getElementById('team-buttons');
     teamButtonsDiv.innerHTML = '';
@@ -88,7 +94,9 @@ function startGame() {
         teamButtonsDiv.appendChild(btn);
     });
     // Initialize questions remaining display
-    document.getElementById('remaining-count').innerText = remainingQuestions;
+    document.getElementById('remaining-count').innerText = isUnlimited ? 'Unlimited' : remainingQuestions;
+    // Initialize running scores display
+    updateRunningScores();
     document.getElementById('home-screen').style.display = 'none';
     document.getElementById('game-screen').style.display = 'block';
 }
@@ -154,8 +162,10 @@ function showCard() {
         btn.classList.remove('selected');
     });
     // Update questions remaining
-    remainingQuestions -= 1;
-    document.getElementById('remaining-count').innerText = remainingQuestions;
+    if (!isUnlimited) {
+        remainingQuestions -= 1;
+        document.getElementById('remaining-count').innerText = remainingQuestions;
+    }
 }
 
 // Generate Guessing Team Buttons
@@ -163,7 +173,6 @@ function generateGuessingTeamButtons() {
     let guessingTeamContainer = document.getElementById('guessing-team-container');
     guessingTeamContainer.innerHTML = '';
     teams.forEach(team => {
-        // Removed condition to exclude the current team
         let btn = document.createElement('button');
         btn.classList.add('guessing-team-btn');
         btn.innerText = team;
@@ -179,9 +188,8 @@ function handleCorrectGuess(team) {
     // Assign points
     let points = [5, 4, 3, 2, 0][clueWordsUsed] || 0;
     scores[teams[currentTeamIndex]] += points;
-    if (team) {
-        scores[team] += 2;
-    }
+    scores[team] += 2;
+    updateRunningScores();
     // Move to next card if time permits and questions remain
     if (timeLeft > 0 && remainingQuestions > 0) {
         showCard();
@@ -202,6 +210,7 @@ document.getElementById('continue-button').addEventListener('click', () => {
     // Assign points based on clue words used
     let points = [5, 4, 3, 2, 0][clueWordsUsed] || 0;
     scores[teams[currentTeamIndex]] += points;
+    updateRunningScores();
     // Continue to next card if time permits and questions remain
     if (timeLeft > 0 && remainingQuestions > 0) {
         showCard();
@@ -256,3 +265,21 @@ function shuffle(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+// Update Running Scores Display
+function updateRunningScores() {
+    let runningScoresDiv = document.getElementById('running-scores');
+    runningScoresDiv.innerHTML = '<h3>Running Scores</h3>';
+    for (let team in scores) {
+        let p = document.createElement('p');
+        p.innerText = `${team}: ${scores[team]} pts`;
+        runningScoresDiv.appendChild(p);
+    }
+}
+
+// End Game Button with Confirmation
+document.getElementById('end-game-button').addEventListener('click', () => {
+    if (confirm('Are you sure you want to end the game?')) {
+        endGame();
+    }
+});
