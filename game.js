@@ -163,15 +163,14 @@ function generateGuessingTeamButtons() {
     let guessingTeamContainer = document.getElementById('guessing-team-container');
     guessingTeamContainer.innerHTML = '';
     teams.forEach(team => {
-        if (team !== teams[currentTeamIndex]) {
-            let btn = document.createElement('button');
-            btn.classList.add('guessing-team-btn');
-            btn.innerText = team;
-            btn.addEventListener('click', () => {
-                handleCorrectGuess(team);
-            });
-            guessingTeamContainer.appendChild(btn);
-        }
+        // Removed condition to exclude the current team
+        let btn = document.createElement('button');
+        btn.classList.add('guessing-team-btn');
+        btn.innerText = team;
+        btn.addEventListener('click', () => {
+            handleCorrectGuess(team);
+        });
+        guessingTeamContainer.appendChild(btn);
     });
 }
 
@@ -183,7 +182,7 @@ function handleCorrectGuess(team) {
     if (team) {
         scores[team] += 2;
     }
-    // Move to next card if time permits
+    // Move to next card if time permits and questions remain
     if (timeLeft > 0 && remainingQuestions > 0) {
         showCard();
     }
@@ -203,7 +202,7 @@ document.getElementById('continue-button').addEventListener('click', () => {
     // Assign points based on clue words used
     let points = [5, 4, 3, 2, 0][clueWordsUsed] || 0;
     scores[teams[currentTeamIndex]] += points;
-    // Continue to next card if time permits
+    // Continue to next card if time permits and questions remain
     if (timeLeft > 0 && remainingQuestions > 0) {
         showCard();
     }
