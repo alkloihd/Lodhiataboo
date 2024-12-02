@@ -11,9 +11,15 @@
         <h1>lodhia's Quick Coded Taboo</h1>
         <div class="option">
             <label># of Questions:</label>
-            <button id="decrease-questions">-</button>
-            <span id="num-questions">10</span>
-            <button id="increase-questions">+</button>
+            <select id="num-questions-dropdown">
+                <option value="16">16</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="unlimited">Unlimited</option>
+            </select>
         </div>
         <div class="option">
             <label>Number of Teams:</label>
@@ -35,10 +41,11 @@
 
     <!-- Game Screen -->
     <div id="game-screen" style="display: none;">
-        <!-- Top Bar with Questions Remaining -->
+        <!-- Top Bar with Questions Remaining and Timer -->
         <div id="top-bar">
             <div id="questions-remaining">Questions Remaining: <span id="remaining-count"></span></div>
             <div id="timer-display">Time Left: <span id="time-left"></span> seconds</div>
+            <button id="end-game-button" class="top-right-button">End Game</button>
         </div>
         <!-- Team Selection -->
         <div id="team-selection">
@@ -70,6 +77,10 @@
             </div>
             <button id="continue-button">Continue</button>
             <button id="skip-button">Skip</button>
+        </div>
+        <!-- Running Scores Display -->
+        <div id="running-scores">
+            <!-- Running scores will be displayed here -->
         </div>
     </div>
 
